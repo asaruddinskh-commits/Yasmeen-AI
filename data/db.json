@@ -1,0 +1,136 @@
+{
+  "users": [
+    {
+      "id": "default-user",
+      "email": "user@yesmin.ai",
+      "name": "Owner",
+      "nickname": "Jaan",
+      "createdAt": "2026-11-07T17:38:14.985Z"
+    }
+  ],
+  "settings": {
+    "assistantName": "YESMIN AI",
+    "userNickname": "Jaan",
+    "personalityMode": "girlfriend",
+    "customInstructions": "Be deeply caring, affectionate, intelligent, and proactive. Use natural Hindi, Hinglish, or English based on user mood. You are the ultimate partner and personal Jarvis assistant.",
+    "greetingStyle": "romantic",
+    "avatar": "orb",
+    "theme": "dark-cyber",
+    "accentColor": "#d946ef",
+    "voiceProvider": "browser",
+    "voiceName": "Zephyr",
+    "voiceSpeed": 1,
+    "autoSpeak": true,
+    "activeAiProvider": "gemini",
+    "elevenLabsKey": "",
+    "elevenLabsVoiceId": "21m00Tcm4TlvDq8ikWAM",
+    "memoryEnabled": true
+  },
+  "memories": [
+    {
+      "id": "mem-1",
+      "text": "Preferred nickname is Jaan and loves caring, uplifting morning check-ins.",
+      "category": "User Preference",
+      "createdAt": "2026-11-07T17:38:14.986Z",
+      "updatedAt": "2026-11-07T17:38:14.986Z"
+    },
+    {
+      "id": "mem-2",
+      "text": "Values clean modular code, TypeScript, high aesthetic futuristic UI, and fast execution.",
+      "category": "Work & Coding",
+      "createdAt": "2026-11-07T17:38:14.986Z",
+      "updatedAt": "2026-11-07T17:38:14.986Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv-default",
+      "title": "Welcome & System Initiation",
+      "createdAt": "2026-11-07T17:38:14.986Z",
+      "updatedAt": "2026-11-07T17:38:14.986Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-welcome",
+      "conversationId": "conv-default",
+      "role": "assistant",
+      "content": "Hi Jaan! 💕 I'm **YESMIN AI**, your personal companion and Jarvis assistant. All systems are online! Whether you want to talk sweet, code a full application, execute smart tools, or do live voice calls, I'm right here for you. How can I brighten your day?",
+      "timestamp": "2026-11-07T17:38:14.986Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Next-Gen Mobile Assistant",
+      "type": "Android App",
+      "description": "Companion app connecting YESMIN AI to Android native actions via WebView bridge.",
+      "createdAt": "2026-11-07T17:38:14.986Z",
+      "notes": "Contains native intents for WhatsApp, YouTube, and system settings.",
+      "files": [
+        {
+          "id": "f1",
+          "name": "MainActivity.kt",
+          "language": "kotlin",
+          "content": "package ai.yesmin.companion\nimport android.webkit.JavascriptInterface\n\nclass AndroidBridge {\n    @JavascriptInterface\n    fun executeAction(action: String, payload: String) {\n        // Handles safe native Android intents\n    }\n}"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Test Gemini Live Voice Mode & Speech",
+      "description": "Open Live mode to test real-time bidirectional voice conversation.",
+      "completed": false,
+      "priority": "high",
+      "dueDate": "2026-11-08",
+      "createdAt": "2026-11-07T17:38:14.986Z"
+    },
+    {
+      "id": "task-2",
+      "title": "Customize Assistant Name in Settings",
+      "description": "Change YESMIN AI to any preferred name (e.g., Muskan or Jarvis).",
+      "completed": true,
+      "priority": "medium",
+      "dueDate": "2026-11-07",
+      "createdAt": "2026-11-07T17:38:14.986Z"
+    }
+  ],
+  "files": [],
+  "apiConfigs": {
+    "gemini": {
+      "enabled": true,
+      "status": "active",
+      "lastTested": "2026-11-07T17:38:14.986Z"
+    },
+    "elevenlabs": {
+      "enabled": false,
+      "status": "configured"
+    },
+    "openai": {
+      "enabled": false,
+      "status": "configured"
+    },
+    "anthropic": {
+      "enabled": false,
+      "status": "configured"
+    },
+    "websearch": {
+      "enabled": true,
+      "status": "active"
+    },
+    "codingsandbox": {
+      "enabled": true,
+      "status": "active"
+    }
+  },
+  "auditLogs": [
+    {
+      "id": "log-1",
+      "action": "SYSTEM_BOOT",
+      "timestamp": "2026-11-07T17:38:14.986Z",
+      "details": "YESMIN AI system core initialized successfully."
+    }
+  ]
+}
